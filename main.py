@@ -130,7 +130,7 @@ window.title('Typing Test')
 window.geometry("+200-50")
 window.config(bg=BG_COLOR, pady=40, padx=40)
 
-title_label = Label(text="Typing Tester", font=("Courier", 35, "bold"), fg=ACCENT_COLOR, bg=BG_COLOR)
+title_label = Label(text="Typing Trainer", font=("Courier", 35, "bold"), fg=ACCENT_COLOR, bg=BG_COLOR)
 title_label.grid(row=0, columnspan=2, pady=10)
 
 canvas = Canvas(height=526, width=800, bg=BG_COLOR, highlightthickness=0)
